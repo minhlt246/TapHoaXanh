@@ -9,4 +9,5 @@ imports: [ConfigModule.forRoot({isGlobal: true}), ProductsModule, CategoriesModu
 controllers: [],
 providers: [],
 })
+    
 export class AppModule {}
