@@ -48,8 +48,4 @@ export class Product extends AbstractEntity<Product> {
     @OneToMany(() => ProductImage, (image) => image.product)
     image: ProductImage;
 
-
-
-
-
 }
