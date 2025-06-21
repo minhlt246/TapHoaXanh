@@ -17,6 +17,11 @@ export class CategoriesController {
     return this.categoriesService.findAll();
   }
 
+  @Patch('restore/:id')
+  restore(@Param('id') id: number) {
+    return this.categoriesService.restore(id);
+  }
+
   // @Get(':id')
   // findOne(@Param('id') id: string) {
   //   return this.categoriesService.findOne(+id);

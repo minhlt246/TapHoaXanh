@@ -44,6 +44,9 @@ export class Product extends AbstractEntity<Product> {
   @Column()
   quantity: number;
 
+  @Column({ default: 0 })
+  purchase: number;
+
   @ManyToOne(() => Category, (category) => category.product)
   category: Category;
 

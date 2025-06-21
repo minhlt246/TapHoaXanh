@@ -34,9 +34,12 @@ export class CreateProductDto {
   @ApiProperty({ example: 10 })
   quantity: number;
 
-  @ApiProperty({ example: 'id danh mục' })
+  @ApiProperty({ example: 1 })
   categoryId: number;
 
-  @ApiProperty({ example: 'id brand' })
+  @ApiProperty({ example: 1 })
   brandId: number;
+
+  @ApiProperty({ example: 10 })
+  purchase: number;
 }

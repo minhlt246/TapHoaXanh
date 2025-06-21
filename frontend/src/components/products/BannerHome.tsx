@@ -11,7 +11,7 @@ interface Product {
   price: number;
   quantity: number;
   category: string;
-  img: string;
+  images: string;
   createdAt: string;
   updatedAt: string;
 }
@@ -154,7 +154,7 @@ const BannerHome: React.FC<ProductListProps> = ({ products }) => {
                     <button className="add-btn">Add<i className="fa fa-shopping-cart"></i></button>
                   </div>
                   <div className="product-img">
-                    <Image src={product.img.startsWith('/') ? product.img : `/${product.img}`} alt={product.name} width={200} height={200} />
+                    <Image src={product.images} alt={product.name} width={200} height={200} />
                   </div>
                   <div className="product-info">
                     <div className="category">{product.category}</div>

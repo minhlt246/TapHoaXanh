@@ -15,7 +15,7 @@ export default function HomeHeader() {
             </div>
             <div className="offcanvas-body">
               <ul className="navbar-nav pe-3">
-                <li className="nav-item"><a className="nav-link me-lg-3 active" aria-current="page" href="http://localhost:3001">Trang Chủ</a></li>
+                <li className="nav-item"><a className="nav-link me-lg-3 active" aria-current="page" href="">Trang Chủ</a></li>
                 <li className="nav-item"><a className="nav-link me-lg-3" href="http://localhost:3001/product">Market</a></li>
                 <li className="nav-item dropdown"><a className="nav-link me-lg-3 dropdown-toggle" href="javascript:void(0)" role="button" data-bs-toggle="dropdown" aria-expanded="false">Trade</a></li>
                 <li className="nav-item"><a className="nav-link me-lg-3" href="javascript:void(0)">Futures</a></li>
